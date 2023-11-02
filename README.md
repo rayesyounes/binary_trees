@@ -23,13 +23,13 @@
 
 | Task | File |
 | ---- | ---- |
-| 0. New node | [SOON](./) |
-| 1. Insert left | [SOON](./) |
-| 2. Insert right | [SOON](./) |
-| 3. Delete | [SOON](./) |
-| 4. Is leaf | [SOON](./) |
-| 5. Is root | [SOON](./) |
-| 6. Pre-order traversal | [SOON](./) |
+| 0. New node | [binary_tree_node](./0-binary_tree_node.c) |
+| 1. Insert left | [binary_tree_insert_left](./1-binary_tree_insert_left.c) |
+| 2. Insert right | [binary_tree_insert_right](./2-binary_tree_insert_right.c) |
+| 3. Delete | [binary_tree_delete](./3-binary_tree_delete.c) |
+| 4. Is leaf | [binary_tree_is_leaf](./4-binary_tree_is_leaf.c) |
+| 5. Is root | [binary_tree_is_root](./5-binary_tree_is_root.c) |
+| 6. Pre-order traversal | [binary_tree_preorder](./6-binary_tree_preorder.c) |
 | 7. In-order traversal | [SOON](./) |
 | 8. Post-order traversal | [SOON](./) |
 | 9. Height | [SOON](./) |
