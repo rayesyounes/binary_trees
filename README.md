@@ -1,44 +1,48 @@
-# C - Binary trees
+# Project: Binary Trees
 
-## Resources
+## General
 
-#### Read or watch:
+This project explores the concept of binary trees in computer science. It covers various topics related to binary trees, their properties, differences between binary trees and Binary Search Trees (BST), traversal methods, and more.
 
-* [Binary tree](https://intranet.alxswe.com/rltoken/1F2x42-8vUbOmU4L1C1KMg)
-* [Data Structure and Algorithms - Tree](https://intranet.alxswe.com/rltoken/QmcTMCkQyrgMjrqoWxYdhw)
-* [Tree Traversal](https://intranet.alxswe.com/rltoken/z6ZaXr_RxwE5nTHAUx_dfQ)
-* [Binary Search Tree](https://intranet.alxswe.com/rltoken/qO5dBlMnYJzbaWG3xVpcnQ)
-* [Data structures: Binary Tree](https://intranet.alxswe.com/rltoken/BeyJ2gjlE7_djwRiDyeHig)
-## Learning Objectives
+## Table of Contents
 
-### General
+- [Binary Trees](#binary-trees)
+- [Difference Between Binary Tree and Binary Search Tree](#difference-between-binary-tree-and-binary-search-tree)
+- [Time Complexity Gain Compared to Linked Lists](#time-complexity-gain-compared-to-linked-lists)
+- [Binary Tree Properties](#binary-tree-properties)
+- [Traversal Methods](#traversal-methods)
+- [Types of Binary Trees](#types-of-binary-trees)
 
-* What is a binary tree
-* What is the difference between a binary tree and a Binary Search Tree
-* What is the possible gain in terms of time complexity compared to linked lists
-* What are the depth, the height, the size of a binary tree
-* What are the different traversal methods to go through a binary tree
-* What is a complete, a full, a perfect, a balanced binary tree
-## Tasks
+## Binary Trees
 
-| Task | File |
-| ---- | ---- |
-| 0. New node | [binary_tree_node](./0-binary_tree_node.c) |
-| 1. Insert left | [binary_tree_insert_left](./1-binary_tree_insert_left.c) |
-| 2. Insert right | [binary_tree_insert_right](./2-binary_tree_insert_right.c) |
-| 3. Delete | [binary_tree_delete](./3-binary_tree_delete.c) |
-| 4. Is leaf | [binary_tree_is_leaf](./4-binary_tree_is_leaf.c) |
-| 5. Is root | [binary_tree_is_root](./5-binary_tree_is_root.c) |
-| 6. Pre-order traversal | [binary_tree_preorder](./6-binary_tree_preorder.c) |
-| 7. In-order traversal | [SOON](./) |
-| 8. Post-order traversal | [SOON](./) |
-| 9. Height | [SOON](./) |
-| 10. Depth | [SOON](./) |
-| 11. Size | [SOON](./) |
-| 12. Leaves | [SOON](./) |
-| 13. Nodes | [SOON](./) |
-| 14. Balance factor | [SOON](./) |
-| 15. Is full | [SOON](./) |
-| 16. Is perfect | [SOON](./) |
-| 17. Sibling | [SOON](./) |
-| 18. Uncle | [SOON](./) |
+A binary tree is a data structure in which each node has at most two child nodes, referred to as the left child and the right child.
+
+## Difference Between Binary Tree and Binary Search Tree
+
+A Binary Search Tree (BST) is a specific type of binary tree that maintains a certain ordering property. In a BST, the left subtree of a node contains only nodes with values less than the node's value, and the right subtree contains only nodes with values greater than the node's value.
+
+## Time Complexity Gain Compared to Linked Lists
+
+Binary trees can offer significant time complexity improvements over linked lists, especially for certain operations. For example, operations like searching, insertion, and deletion in a binary tree can have a time complexity of O(log n) on average, whereas in a linked list, these operations typically have a time complexity of O(n).
+
+## Binary Tree Properties
+
+- **Depth:** The depth of a node in a binary tree is the distance from the root node to that node.
+- **Height:** The height of a binary tree is the maximum depth among all nodes in the tree.
+- **Size:** The size of a binary tree is the total number of nodes in the tree.
+
+## Traversal Methods
+
+There are several methods to traverse a binary tree:
+
+- **In-order Traversal:** Visit the left subtree, then the current node, and finally the right subtree.
+- **Pre-order Traversal:** Visit the current node, then the left subtree, and finally the right subtree.
+- **Post-order Traversal:** Visit the left subtree, then the right subtree, and finally the current node.
+- **Level-order Traversal:** Visit nodes level by level, from left to right.
+
+## Types of Binary Trees
+
+- **Complete Binary Tree:** A binary tree in which all levels are completely filled, except possibly the last level, which is filled from left to right.
+- **Full Binary Tree:** A binary tree in which every node has either 0 or 2 children.
+- **Perfect Binary Tree:** A binary tree in which all internal nodes have exactly two children, and all leaf nodes are at the same level.
+- **Balanced Binary Tree:** A binary tree in which the height of the left and right subtrees of any node differs by at most one.
