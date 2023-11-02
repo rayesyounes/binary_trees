@@ -29,7 +29,7 @@
 | 3. Delete | [binary_tree_delete](./3-binary_tree_delete.c) |
 | 4. Is leaf | [binary_tree_is_leaf](./4-binary_tree_is_leaf.c) |
 | 5. Is root | [binary_tree_is_root](./5-binary_tree_is_root.c) |
-| 6. Pre-order traversal | [binary_tree_preorder](./binary_trees\6-binary_tree_preorder.c) |
+| 6. Pre-order traversal | [binary_tree_preorder](./6-binary_tree_preorder.c) |
 | 7. In-order traversal | [SOON](./) |
 | 8. Post-order traversal | [SOON](./) |
 | 9. Height | [SOON](./) |
